@@ -1,0 +1,52 @@
+form{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height:300px;
+    margin: 2em;
+
+  }
+input{
+    padding:20px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+.addbutton{
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+select{
+    border-radius: 8px;
+      background-color: white;
+      color:blue;
+      font-size: 20px;
+  }
+select:hover{
+    background-color: blue;
+    color:white;
+    transition: 0.5s ease;
+}
+
+button {
+    padding: 20px;
+  }
+.filter{
+    margin-left:50px;
+    padding: 20px;
+    outline: none;
+    border: none;
+  }
+.addbutton:hover{
+    background-color: orange;
+    transition: 0.2s ease-in;
+  }
+li{
+    list-style: none;
+    flex:1;
+  }
+  
